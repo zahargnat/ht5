@@ -5,11 +5,11 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: #000000;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-list{
+.header-link{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -44,7 +44,7 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 
-.header-contacts{
+.contact-link{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -52,7 +52,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: #757575;
 }
 
 .main-name{
@@ -117,7 +117,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: #ffffff;
 }
 
 .footer-contact-email{
@@ -157,11 +157,11 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: #000000;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-list-pf{
+.header-link-pf{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -171,7 +171,7 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.header-contacts-pf{
+.contact-link-pf{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -219,7 +219,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: #000000;
 }
 
 .footer-adress-pf{
@@ -232,12 +232,38 @@ letter-spacing: 0.03em;
 color: #FFFFFF;   
 }
 
-.footer-contacts-pf{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);    
+.logo-color{
+    color: #2196F3;  
+}
+
+.logo-color-footer{
+    color: #2196F3;  
+}
+
+.logo-color-pf{
+    color: #2196F3;  
+}
+
+.footer-tel-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);    
+}
+
+.footer-email-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);  
+}
+
+.logo-color-footer-pf{
+    color: #2196F3;  
 }
