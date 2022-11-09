@@ -43,8 +43,15 @@ color: #2196F3;
 }
 
 /* Флекс бокси */
-.header-section{
-align-items: flex-start;
+.header-section .container {
+display: flex;
+align-items: center;
+height: 80px;
+}
+
+.header-navigation{
+display: flex;
+align-items: center;
 }
 
 .webstudio-header{
@@ -94,10 +101,17 @@ padding-top:200px;
 
 .main-button{
 background-color: #2196F3;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
-.container .main-button{
+.hero-section .container{
     padding-bottom: 200px;  
+}
+
+.container .header-list{
+padding-left: 93px;
 }
 
 /* Меїн */
@@ -171,6 +185,13 @@ color: #757575;
 }
 
 /* Флекс бокси */
+.container .main-texts{
+    padding-top: 93px;
+    padding-bottom: 94px ;
+    padding-left: 215px;
+    padding-right: 30px;
+}
+
 .main-texts{
 display: flex;
 padding-right: 30px;
@@ -186,6 +207,10 @@ padding-right: 30px;
 
 .main-team{
 background-color: #F5F4FA;
+}
+
+.container .main-working-list{
+    justify-content: center;
 }
 
 .main-team-list{
@@ -298,15 +323,33 @@ color: #757575;
 color: #2196F3;  
 }
 /* Флекс бокси */
+.header-section-pf .container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+ }
+
+ .header-navigation-pf{
+    display: flex;
+    align-items: center;
+    }
+    
+.header-navigation{
+    display: flex;
+    align-items: center;
+} 
+
 .header-webstudio-pf{
-display: flex;
-align-items: flex-start;
+    display: flex;
+    margin-left: 215px;
+    align-items: flex-start;
 }
 
 .header-list-pf{
-display: flex;
-justify-content: center;
-align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 93px;
 }
 
 .header-item-pf{
@@ -316,11 +359,15 @@ align-items: flex-start;
 .header-contacts-pf{
     display: flex;
     justify-content: end;
+    margin-right: 50px;
 }
 
 .header-contacts-pf{
+    display: flex;
+    justify-content: end;
     margin-right: 50px;
 }
+
 /* меїн пф */
 .main-button-text-pf{
 font-family: 'Roboto';
@@ -416,6 +463,9 @@ color: #2196F3;
 background-color: #2F303A;
 }
 
+.footer-pf .container{
+    background-color: #2F303A;
+}
 
 
 
