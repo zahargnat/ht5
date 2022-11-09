@@ -13,39 +13,44 @@
   <body>
     <!-- Голова сайту -->
     <header class="header-section">
-      <nav class="header-navigation">
-        <a href="/" class="webstudio-header"> <span class="logo-color">Web</span>Studio</a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link">Студія</a>
+      <div class="container">
+        <nav class="header-navigation">
+          <a href="/" class="webstudio-header"> <span class="logo-color">Web</span>Studio</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link">Студія</a>
+            </li>
+            <li class="header-item">
+              <a href="./pages/portfolio.html" class="header-link">Портфоліо</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts">
+          <li class="header-contacts">
+            <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
           </li>
-          <li class="header-item">
-            <a href="./pages/portfolio.html" class="header-link">Портфоліо</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">Контакти</a>
+          <li class="header-contacts">
+            <a href="tel:+380991111111" class="contact-link">+38 099 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="header-contacts">
-        <li class="header-contacts">
-          <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
-        </li>
-        <li class="header-contacts">
-          <a href="tel:+380991111111" class="contact-link">+38 099 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Головна чатстина з інфою -->
     <main>
       <!-- Секція герой -->
       <section class="hero-section">
-        <h1 class="hero-section-h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <div class="container">
+          <h1 class="hero-section-h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button type="button" class="main-button">Замовити послугу</button>
+        </div>
       </section>
       <!-- Наші плюси -->
       <section class="main-pluses">
-        <ul class="main-texts">
+        <div class="container">
+          <ul class="main-texts">
           <li class="main-headers">
             <h2 class="main-name">УВАГА ДО ДЕТАЛЕЙ</h2>
             <p class="main-text">
@@ -83,10 +88,12 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Чим ми займаємося -->
       <section class="main-zanyattya">
-        <h2 class="main-working-title">Чим ми займаємося</h2>
+        <div class="container">
+          <h2 class="main-working-title">Чим ми займаємося</h2>
         <ul class="main-working-list">
           <li class="main-working-photo">
             <img src="./img/1.jpg" alt="Програмування" class="main-working-photo" />
@@ -99,10 +106,12 @@
             <img src="./img/3.jpg" alt="Дизайн" class="main-working-photo" />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Наша команда -->
       <section class="main-team">
-        <h2 class="main-team-title">Наша команда</h2>
+        <div class="container">
+           <h2 class="main-team-title">Наша команда</h2>
         <ul class="main-team-list">
           <li class="main-team-li">
             <img src="./img/4.jpg" alt="мужчина" class="main-team-photo" />
@@ -125,11 +134,13 @@
             <p class="main-team-profecion">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Низ -->
     <section class="footer">
-    <footer>
+      <div class="container">
+         <footer>
       <a href="./index.html" class="footer-webstudio"> <span class="logo-color-footer">Web</span> Studio</a>
       <address class="footer-adress">м. Київ, пр-т Лесі Українки, 26</address>
       <ul class="footer-contact">
@@ -142,6 +153,7 @@
           <a href="tel:+380991111111" class="footer-contact-tel">+38 099 111 11 11</a>
         </li>
       </ul>
+      </div>
     </section>
     </footer>
   </body>

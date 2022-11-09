@@ -1,3 +1,13 @@
+.container{
+    width: 1200px;
+    outline: solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* хедер */
 .webstudio-header{
 font-family: 'Raleway';
 font-style: normal;
@@ -18,7 +28,50 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
 }
+.contact-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
 
+.logo-color{
+color: #2196F3;  
+}
+
+/* Флекс бокси */
+.header-section{
+align-items: flex-start;
+}
+
+.webstudio-header{
+display: flex;
+margin-left: 215px;
+align-items: flex-start;
+}
+
+.header-list{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.header-item{
+margin-right: 55px;
+}
+
+.header-contacts{
+display: flex;
+justify-content: end;
+margin-right: 50px;
+}
+
+
+
+ /* герой */
 .hero-section-h1{
 font-family: 'Roboto';
 font-style: normal;
@@ -30,7 +83,24 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+ /* Флекс бокси */
+.hero-section{
+background-color:  #2F303A;
+}
 
+.hero-section-h1{
+padding-top:200px;
+}
+
+.main-button{
+background-color: #2196F3;
+}
+
+.container .main-button{
+    padding-bottom: 200px;  
+}
+
+/* Меїн */
 .main-button{
 font-family: 'Roboto';
 font-style: normal;
@@ -44,16 +114,6 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 
-.contact-link{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-}
 
 .main-name{
 font-family: 'Roboto';
@@ -110,6 +170,48 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+/* Флекс бокси */
+.main-texts{
+display: flex;
+padding-right: 30px;
+}
+
+.main-working-list{
+display: flex;
+}
+
+.main-working-photo{
+padding-right: 30px;
+}
+
+.main-team{
+background-color: #F5F4FA;
+}
+
+.main-team-list{
+display: flex;
+justify-content: center;
+}
+
+.main-team-photo{
+width: 270px;
+}
+
+.main-working-photo{
+width: 370px;
+}
+
+.main-team-photo{
+padding-right: 30px;
+}
+
+.main-working-title{
+display: flex;
+justify-content: center;
+}
+
+
+/* Футер */
 .footer-webstudio{
 font-family: 'Raleway';
 font-style: normal;
@@ -121,13 +223,13 @@ color: #ffffff;
 }
 
 .footer-contact-email{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact-tel{
@@ -150,6 +252,17 @@ letter-spacing: 0.03em;
 color: #FFFFFF;   
 }
 
+.logo-color-footer{
+    color: #2196F3;  
+}
+/* Флекс бокси */
+.footer{
+background-color: #2F303A;
+}
+
+/* Портфоліо */
+
+/* Хеадер пф */
 .header-webstudio-pf{
 font-family: 'Raleway';
 font-style: normal;
@@ -181,6 +294,34 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
+.logo-color-pf{
+color: #2196F3;  
+}
+/* Флекс бокси */
+.header-webstudio-pf{
+display: flex;
+align-items: flex-start;
+}
+
+.header-list-pf{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.header-item-pf{
+    margin-right: 55px;
+}
+
+.header-contacts-pf{
+    display: flex;
+    justify-content: end;
+}
+
+.header-contacts-pf{
+    margin-right: 50px;
+}
+/* меїн пф */
 .main-button-text-pf{
 font-family: 'Roboto';
 font-style: normal;
@@ -211,7 +352,22 @@ line-height: 30px;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/* Флекс бокси */
+.main-buttons-pf{
+display: flex;
+justify-content: center;
+}
 
+.main-button-pf{
+padding-right: 8px;
+}
+
+.main-photos-pf{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+ /* футер пф */
 .footer-webstudio-pf{
 font-family: 'Raleway';
 font-style: normal;
@@ -232,38 +388,43 @@ letter-spacing: 0.03em;
 color: #FFFFFF;   
 }
 
-.logo-color{
-    color: #2196F3;  
-}
-
-.logo-color-footer{
-    color: #2196F3;  
-}
-
-.logo-color-pf{
-    color: #2196F3;  
-}
-
 .footer-tel-pf{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);    
 }
 
 .footer-email-pf{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);  
 }
 
 .logo-color-footer-pf{
-    color: #2196F3;  
+color: #2196F3;  
 }
+/* Флекс бокси */
+.footer-pf{
+background-color: #2F303A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
