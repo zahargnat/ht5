@@ -1,0 +1,204 @@
+.container{
+    width: 1200px;
+    outline: solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Портфоліо */
+
+/* Хеадер пф */
+.header-webstudio-pf{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .header-link-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+    
+    .contact-link-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+    
+    .logo-color-pf{
+    color: #2196F3;  
+    }
+    /* Флекс бокси */
+    .header-section-pf .container {
+        display: flex;
+        align-items: center;
+        height: 80px;
+     }
+    
+     .header-navigation-pf{
+        display: flex;
+        align-items: center;
+        }
+        
+    .header-navigation{
+        display: flex;
+        align-items: center;
+    } 
+    
+    .header-webstudio-pf{
+        display: flex;
+        margin-left: 215px;
+        align-items: flex-start;
+    }
+    
+    .header-list-pf{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 93px;
+    }
+    
+    .header-item-pf{
+        margin-right: 55px;
+    }
+    
+    .header-contacts-pf{
+        display: flex;
+        justify-content: end;
+        margin-right: 50px;
+    }
+    
+    .header-contacts-pf{
+        display: flex;
+        justify-content: end;
+        margin-right: 50px;
+    }
+    
+    /* меїн пф */
+    .main-button-text-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    }
+    
+    .main-text-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;   
+    }
+    
+    .main-profecion-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    /* Флекс бокси */
+    .main-buttons-pf{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .main-button-pf{
+    padding-right: 8px;
+    }
+    
+    .main-photos-pf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+     /* футер пф */
+    .footer-webstudio-pf{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    }
+    
+    .footer-adress-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;   
+    }
+    
+    .footer-tel-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);    
+    }
+    
+    .footer-email-pf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);  
+    }
+    
+    .logo-color-footer-pf{
+    color: #2196F3;  
+    }
+    /* Флекс бокси */
+    .footer-pf{
+    background-color: #2F303A;
+    }
+    
+    .footer-pf .container{
+    background-color: #2F303A;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
