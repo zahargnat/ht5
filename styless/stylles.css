@@ -209,26 +209,26 @@ padding-bottom: 94px ;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
+    background-size: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
-.main-headers::before :nth-child(1){
+.main-headers:nth-child(1)::before{
 background-image: url(../img/antenna.jpg);
-background-size: 70px, 70px;
 }
 
-.main-headers::before :nth-child(2){
+.main-headers:nth-child(2)::before{
     background-image: url(../img/clock.jpg);
-    background-size: 70px, 70px;
 }
 
-.main-headers::before :nth-child(3){
+.main-headers:nth-child(3)::before{
     background-image: url(../img/diagram.jpg);
-    background-size: 70px, 70px;
     }
 
-.main-headers::before :nth-child(4){
+.main-headers:nth-child(4):before{
     background-image: url(../img/astronaut.jpg);
-    background-size: 70px, 70px;
 }
 
 .main-texts{
