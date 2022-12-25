@@ -127,6 +127,10 @@
     justify-content: center;
     }
     
+    .main-list-pf{
+        position: relative;
+    }
+
     .main-button-pf{
     padding-right: 8px;
     }
@@ -136,6 +140,30 @@
     flex-wrap: wrap;
     justify-content: center;
     }
+
+    .owerlay-pf{
+    height: 294px;
+    width: 370px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+
+    .owerlay-pf:hover{
+        opacity: 1;
+    }
+
+    .owerlay-pf:hover{
+        background: rgba(33, 150, 243, 0.9);
+    }
+
      /* футер пф */
     .footer-webstudio-pf{
     font-family: 'Raleway';
@@ -146,7 +174,8 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     }
-    
+
+
     .footer-adress-pf{
     font-family: 'Roboto';
     font-style: normal;
@@ -183,6 +212,7 @@
     /* Флекс бокси */
     .footer-pf{
     background-color: #2F303A;
+    
     }
     
     .footer-pf .container{

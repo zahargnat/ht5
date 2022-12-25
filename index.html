@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styless/stylles.css">
     <link rel="stylesheet" href="./styless/reset.css">
   </head>
-  <body>
+  <body >
     <!-- Голова сайту -->
     <header class="header-section">
       <div class="container">
@@ -31,22 +31,22 @@
         <ul class="header-contacts">
           <li class="header-contacts">
             <a href="mailto:info@example.com" class="contact-link">
-              <svg width="16px" height="12px">
+              <svg width="16px" height="12px" class="contact-svg">
                 <use href="./img/symbol-defs.svg#icon-email">  
                   
                 </use>
               </svg>
-              <span>info@example.com</span>
+              <span class="contact-text">info@example.com</span>
             </a>
           </li>
           <li class="header-contacts">
             <a href="tel:+380991111111" class="contact-link">
-            <svg width="10px" height="16px">
+            <svg width="10px" height="16px" class="contact-svg">
               <use href="./img/symbol-defs.svg#icon-phone">  
                 
               </use>
             </svg>
-            <span>+38 096 111 11 11</span>
+            <span class="contact-text">+38 096 111 11 11</span>
           </a>
           </li>
         </ul>
@@ -58,7 +58,68 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-section-h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button type="button" class="main-button">Замовити послугу</button>
+        <button type="button" class="main-button" data-open-modal>Замовити послугу</button>
+        <div class="backdrop is-hidden" data-backdrop>
+          <div class="background-modal">
+            <button type="button" class="close">
+              <svg class="close-svg" width="30" height="30">
+                <use
+                href="./img/symbol-defs.svg#icon-close"
+                class="close-use"
+                data-close-modal>
+                </use>
+              </svg>
+            </button>
+            <br />
+            <h6 class="write-information">
+              Залиште свої дані, ми Вам зателефонуємо
+            </h6>
+            <ul class="info-menu">
+             <li class="info-list">
+              <label for="name" class="info-label">Ім'я</label>
+              <br />
+              <svg class="backdrop-svg" width="12" height="12">
+                <use href="./img/symbol-defs.svg#icon-user" class="backdrop-use">
+                </use>
+              </svg>
+              <input id="name" type="text" class="info-input">
+             </li>
+             <li class="info-list">
+              <label for="name" class="info-label">Телефон</label>
+              <br />
+              <svg class="backdrop-svg" width="13" height="13">
+                <use href="./img/symbol-defs.svg#icon-call" class="backdrop-use">
+                </use>
+              </svg>
+              <input id="phone" type="text" class="info-input">
+             </li>
+             <li class="info-list">
+              <label for="name" class="info-label">Пошта</label>
+              <br />
+              <svg class="backdrop-svg" width="15" height="12">
+                <use href="./img/symbol-defs.svg#icon-email" class="backdrop-use">
+                </use>
+              </svg>
+              <input id="gmail" type="text" class="info-input">
+             </li>
+             <li class="info-list">
+              <label for="coments" class="info-label">Коментарі</label>
+              <br />
+              <input placeholder="Введите текст" id="coments" type="text" class="info-coments">
+             </li>
+            </ul>
+            <ul class="checkbox-menu">
+              <li>
+                <input type="checkbox" class="checkbox-agree">
+              </li>
+              <li>
+                <h6 class="agree-with">Погоджуюсь з розсилкою і приймаю <u class="document-condition">Умови договору</u></h6>
+                
+              </li>
+            </ul>
+            <br />
+            <button type="button" class="send-info">Надіслати</button>
+          </div>
         </div>
       </section>
       <!-- Наші плюси -->
@@ -101,12 +162,21 @@
           <li class="main-working-photo">
             <img src="./img/1.jpg" alt="Програмування" class="main-working-photo" />
           </li>
+          <li class="label-list">
+            <div class="label-zanyatya">ДЕСКТОПНІ ЗАСТОСУНКИ</div>
+          </li>
           <li class="main-working-photo">
             <img src="./img/2.jpg" alt="Програвумання для телефону" class="main-working-photo"
             />
           </li>
+          <li class="label-list">
+            <div class="label-zanyatya">МОБІЛЬНІ ЗАСТОСУНКИ</div>
+          </li>
           <li class="main-working-photo">
             <img src="./img/3.jpg" alt="Дизайн" class="main-working-photo" />
+          </li>
+          <li class="label-list">
+            <div class="label-zanyatya">ДИЗАЙНЕРСЬКІ РІШЕННЯ</div>
           </li>
         </ul>
         </div>
@@ -368,8 +438,18 @@
           <a href="tel:+380991111111" class="footer-contact-tel">+38 099 111 11 11</a>
         </li>
       </ul>
+      <input id="name" type="text" class="footer-input">
+      <p class="footer-email">E-mail</p>
+      <button type="button" class="footer-button">Підписатись</button>
+      <svg width="24" heighr="24" class="send-icon">
+        <use href="./img/symbol-defs.svg#icon-send">
+
+        </use>
+      </svg>
       </div>
     </section>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
+
