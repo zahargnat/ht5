@@ -1,6 +1,6 @@
 .container{
     width: 1200px;
-    outline: solid rgba(255, 0, 0, 0.979);
+    outline: solid rgb(255, 0, 0);
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -204,6 +204,12 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
+.close-svg{
+    position: absolute;
+    right: 12px;
+    top: 6px;
+}
+
 .backdrop{
     position: fixed;
     left: 0;
@@ -234,9 +240,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 }
 
-.close .close-svg{
-    position: relative;
-}
 
 .close:hover{
     color: #2196F3;
@@ -254,19 +257,32 @@ justify-content: center;
 
 .info-menu{
 margin-left: 40px;
+display: block;
 }
 
+.info-list{
+    display: block;
+    margin-bottom: 10px;
+}
 .checkbox-agree{
     margin-left:52px;
+    position: absolute;
+    left: 8px;
+    top: 450px;
 }
 
 .agree-with{
     margin-left: 80px;
     position: absolute;
-    bottom: 88px;
+    top: 425px;
 }
 
 .send-info{
+display: block;
+position: relative;
+top: 12px;
+width: 200px;
+height: 50px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -278,16 +294,17 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left:58px ;
 padding-right:58px;
+color: #FFFFFF;
 }
 
 .info-label{
-    font-family: 'Roboto', serif;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
     font-weight: 400;
-    font-size: 12px;
-    margin-bottom: 4px;
+    font-size: 12px;  
     color: #757575;
     margin-right: 800px;
-    margin-left: 40px;  
 }
 
 .info-input{
@@ -295,6 +312,9 @@ padding-right:58px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .info-coments{
@@ -624,40 +644,60 @@ position: relative;
 }
 
 .footer-input{
-    position: absolute;
-    left: 800px;
-    bottom: 30px;
-    background: #2F303A;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    width: 200px;
-    height: 30px;
+position: absolute;
+right: 240px;
+bottom: 35px;
+background: #2F303A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 30px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+height: 50px;
+width: 358px;
+padding-left: 50px;
+color: #FFFFFF;
 }
 
 .footer-button{
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    position: absolute;
-    left: 1020px;
-    bottom: 33px;
-    width: 160px;
-    height: 30px;
-    text-align: left ;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+position: absolute;
+right: 33px;
+bottom: 28px;
+width: 200px;
+height: 50px;
+text-align: left ;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+border: none;
+border-radius: 4px;
+color: #FFFFFF;
 }
 
 .send-icon{
     width: 24px;
     height: 24px;
     position: absolute;
-    left: 1140px;
-    bottom: 35px;
+    right: 60px;
+    bottom: 46px;
     fill: #FFFFFF;;
 }
 
 .footer-email{
    color: white;
    position: relative;
-   left: 760px;
-   bottom: 35px;
+   left: 620px;
+   bottom: 50px;
    color: rgba(255, 255, 255, 0.6);;
+   
 }
 
