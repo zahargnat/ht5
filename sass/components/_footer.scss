@@ -1,0 +1,174 @@
+/* Футер */
+.footer-page_adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+    
+    .footer-page_webstudio-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    }
+    
+    .footer-page_contact-email-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .footer-page_contact-telefon-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .footer-page_contact-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;   
+    }
+    
+    .footer-page_webstudio-logo-color{
+    color: #2196F3;  
+    }
+    
+    .footer-page_email-subscribe-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    }
+    
+    /* Флекс бокси */
+    .footer-page{
+    background-color: #2F303A;
+    position: relative;
+    }
+    
+    .container .footer-page{
+    height: 252px;
+    }
+    
+    .footer-page_email-input{
+    position: absolute;
+    right: 240px;
+    top: 35px;
+    background: #2F303A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    height: 50px;
+    width: 358px;
+    padding-left: 50px;
+    color: #FFFFFF;
+    }
+    
+    .footer-page_email-button{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    right: 33px;
+    top: 35px;
+    width: 200px;
+    height: 50px;
+    text-align: left ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    }
+    
+    .footer-page_email-send-icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 60px;
+    top: 45px;
+    fill: #FFFFFF;;
+    }
+    
+    .footer-page_contact-text{
+    color: white;
+    position: relative;
+    left: 620px;
+    bottom: 50px;
+    color: rgba(255, 255, 255, 0.6);;
+       
+    }
+    
+    .footer-page_email-subscribe-text{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    position: relative;
+    bottom: 100px;
+    }
+    
+    .footer-page_social-list{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    bottom: 100px;
+    position: relative;
+    }
+    
+    .footer-page_social-item{
+    display: block;
+    margin-right: 10px;
+    fill: #FFFFFF;
+    position: relative;
+        
+    }
+    
+    .footer-page_social-svg{
+    position: relative;
+    bottom: 30px;
+    left: 12px;
+    }
+    
+    .footer-page_social-link{
+    height: 40px;
+    width: 44px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    background-color: #3b3b3b;
+    }
