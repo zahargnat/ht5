@@ -1,0 +1,39 @@
+%flex{
+display: flex;
+justify-content: center;
+}
+
+%text-style{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+%text-style2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+}
+
+%text-style3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+
+%text-style4{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+
+%flex2{
+display: flex;
+align-items: center;
+}
