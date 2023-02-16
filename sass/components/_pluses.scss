@@ -1,0 +1,53 @@
+.main-page .container{
+padding-top: 93px;
+padding-bottom: 94px ;
+}
+
+.main-page_name{
+@extend%text-style2;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+        
+.main-page_texts{
+@extend%text-style;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.main-page_headers::before{
+content:"";
+display: block;
+width: 270px;
+height: 120px;
+background-color: #F5F4FA;
+border-radius: 4px;
+background-size: 70px;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+}
+        
+.main-page_headers:nth-child(1)::before{
+background-image: url(../img/antenna.jpg);
+}
+        
+.main-page_headers:nth-child(2)::before{
+background-image: url(../img/clock.jpg);
+}
+        
+.main-page_headers:nth-child(3)::before{
+background-image: url(../img/diagram.jpg);
+}
+        
+.main-page_headers:nth-child(4):before{
+background-image: url(../img/astronaut.jpg);
+}
+        
+.main-page_texts{
+display: flex;
+justify-content: center;
+}

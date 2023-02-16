@@ -1,0 +1,46 @@
+.main-zanyatya-page_title{
+@extend%text-style3;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.main-zanyatya-page_working-list{
+display: flex;
+}
+
+.main-zanyatya-page_title{
+margin-bottom: 50px;
+}
+        
+.container .main-zanyatya-page_working-list{
+justify-content: center;
+}
+
+.main-zanyatya-page_working-photo-item{
+width: 370px;
+margin-right: 30px;
+}
+
+.main-zanyatya-page_label-zanyatya{
+display: flex;
+background: rgba(47, 48, 58, 0.8);
+width: 370px;
+height: 70px;
+position: relative;
+color: white;
+right: 400px;
+top: 225px; 
+align-items: center;
+justify-content: center ;
+}
+        
+.main-zanyatya-page_label-list{
+width: 0px;
+height: 0px;
+}
+
+.main-zanyatya-page .container{
+padding-top: 94px;
+padding-bottom: 76px;
+}
