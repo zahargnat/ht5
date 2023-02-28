@@ -3,6 +3,18 @@
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+
+
+@media screen and (min-width: 480px) {
+display: flex;
+justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    
+}
 }
         
     
@@ -27,6 +39,17 @@ background-color: #F5F4FA;
 .main-team-page_team-list{
 display: flex;
 justify-content: center;
+
+
+@media screen and (min-width: 480px) {
+display:inline;
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    
+}
 }
         
 .main-team-page_team-photo{

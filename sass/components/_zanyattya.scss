@@ -7,8 +7,17 @@ color: #212121;
 
 .main-zanyatya-page_working-list{
 display: flex;
-}
 
+@media screen and (min-width: 480px ) {
+display:inline-block ;
+}
+@media screen and (min-width: 768px ) {
+display: inline-block;
+}
+@media screen and (min-width: 1200px ) {
+display: inline-block;
+}
+}
 .main-zanyatya-page_title{
 margin-bottom: 50px;
 }
