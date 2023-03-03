@@ -31,12 +31,14 @@ margin-top: 50px;
 @media screen and (min-width: 480px ){
 display: flex;
 flex-wrap: wrap;
+justify-content: center;
+margin-left: 29px;
 }
 @media screen and (min-width: 768px ){
                  
 }   
 @media screen and (min-width: 1200px ){
-                
+flex-wrap: nowrap;        
 }   
 }
         
@@ -81,6 +83,7 @@ fill: #2196F3;
 @media screen and (min-width: 480px ){
 width: 210px;
 height: 92px;
+margin-bottom: 30px;
 }
 @media screen and (min-width: 768px ){
              

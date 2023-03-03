@@ -26,13 +26,10 @@ color: #212121;
 
 
 @media screen and (min-width: 480px ){
-width: 270px;
-height: 16px;
-padding-left: 105px;
+
 }
 @media screen and (min-width: 768px ){
-width: 270px;
-height: 16px;
+
 }
 @media screen and (min-width: 1200px ){
 
@@ -40,21 +37,39 @@ height: 16px;
 }
         
 .main-page_text{
-@extend%text-style;
+@extend%text-style; 
 letter-spacing: 0.03em;
 color: #757575;
 
 
 @media screen and (min-width: 480px ){
-width: 450px;
-height: 50px;
+
+
 }
 @media screen and (min-width: 768px ){
-width: 450px;
-height: 50px;
+
 }
 @media screen and (min-width: 1200px ){
-    
+
+}
+}
+
+.main-page_headers{
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 120px;
+margin-bottom: 134px;
+
+}
+@media screen and (min-width: 768px ){
+width: 354px;
+margin-bottom: 134px;
+}
+@media screen and (min-width: 1200px ){
+width: 270px;   
+margin-right: 10px;
 }
 }
 
@@ -77,13 +92,13 @@ background-image: url(../img/antenna.jpg);
 
 @media screen and (min-width: 480px ){
 width: 450px;
-height: 120px;
 }
 @media screen and (min-width: 768px ){
 width: 354px;
-height: 120px;
+
 }
 @media screen and (min-width: 1200px ){
+width: 270px;
 
 }
 }
@@ -94,14 +109,12 @@ background-image: url(../img/clock.jpg);
 
 @media screen and (min-width: 480px ){
 width: 450px;
-height: 120px;
 }
 @media screen and (min-width: 768px ){
-width: 354px;
-height: 120px;       
+width: 354px;     
 }
 @media screen and (min-width: 1200px ){
-
+width: 270px;
 }
 }
         
@@ -111,14 +124,12 @@ background-image: url(../img/diagram.jpg);
 
 @media screen and (min-width: 480px ){
 width: 450px;
-height: 120px;
 }
 @media screen and (min-width: 768px ){
-width: 354px;
-height: 120px;        
+width: 354px;        
 }
 @media screen and (min-width: 1200px ){
-
+width: 270px;
 }
 }
         
@@ -128,14 +139,12 @@ background-image: url(../img/astronaut.jpg);
 
 @media screen and (min-width: 480px ){
 width: 450px;
-height: 120px;
 }
 @media screen and (min-width: 768px ){
-width: 354px;
-height: 120px;       
+width: 354px;      
 }
 @media screen and (min-width: 1200px ){
-
+width: 270px;
 }
 }
         
