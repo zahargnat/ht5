@@ -1,6 +1,19 @@
 .main-page .container{
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 994px;
+}
+@media screen and (min-width: 768px ){
+width: 738px;
+height: 480px;
+}
+@media screen and (min-width: 1200px ){
+width: 1200px;
 padding-top: 93px;
 padding-bottom: 94px ;
+}
 }
 
 .main-page_name{
@@ -9,13 +22,40 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: #212121;  
+
+
+@media screen and (min-width: 480px ){
+width: 270px;
+height: 16px;
+padding-left: 105px;
+}
+@media screen and (min-width: 768px ){
+width: 270px;
+height: 16px;
+}
+@media screen and (min-width: 1200px ){
+
+}
 }
         
-.main-page_texts{
+.main-page_text{
 @extend%text-style;
 letter-spacing: 0.03em;
 color: #757575;
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 50px;
+}
+@media screen and (min-width: 768px ){
+width: 450px;
+height: 50px;
+}
+@media screen and (min-width: 1200px ){
+    
+}
 }
 
 .main-page_headers::before{
@@ -33,21 +73,85 @@ margin-bottom: 30px;
         
 .main-page_headers:nth-child(1)::before{
 background-image: url(../img/antenna.jpg);
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 120px;
+}
+@media screen and (min-width: 768px ){
+width: 354px;
+height: 120px;
+}
+@media screen and (min-width: 1200px ){
+
+}
 }
         
 .main-page_headers:nth-child(2)::before{
 background-image: url(../img/clock.jpg);
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 120px;
+}
+@media screen and (min-width: 768px ){
+width: 354px;
+height: 120px;       
+}
+@media screen and (min-width: 1200px ){
+
+}
 }
         
 .main-page_headers:nth-child(3)::before{
 background-image: url(../img/diagram.jpg);
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 120px;
+}
+@media screen and (min-width: 768px ){
+width: 354px;
+height: 120px;        
+}
+@media screen and (min-width: 1200px ){
+
+}
 }
         
 .main-page_headers:nth-child(4):before{
 background-image: url(../img/astronaut.jpg);
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+height: 120px;
+}
+@media screen and (min-width: 768px ){
+width: 354px;
+height: 120px;       
+}
+@media screen and (min-width: 1200px ){
+
+}
 }
         
 .main-page_texts{
+flex-wrap: wrap;
+
+
+@media screen and (min-width: 768px ){
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+@media screen and (min-width: 1200px ){
 display: flex;
 justify-content: center;
+flex-wrap: nowrap;
+
+}
 }

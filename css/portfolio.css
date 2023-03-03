@@ -1,11 +1,74 @@
 @charset "UTF-8";
+.footer-page_social-link, .footer-page_social-list, .footer-page_email-subscribe-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-page_email-button, .footer-page_email-subscribe-text, .footer-page_contact-text, .footer-page_contact-telefon-item, .footer-page_contact-email-item, .footer-page_adress {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.main-page_photos-text, .hero-page_service_button, .window-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.header-page_contacts-link, .header-page_page {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header-page_pages-list, .header-page_navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .container {
-  width: 1200px;
+  width: 100%;
   outline: solid rgb(255, 0, 0);
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    outline: solid rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    height: 600px;
+    outline: solid rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 h1, h2, h3, h4, p {
@@ -35,21 +98,11 @@ a {
 }
 
 .header-page_page {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
-  color: #ff0000;
+  color: #212121;
 }
 
 .header-page_contacts-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -69,15 +122,6 @@ a {
   height: 80px;
 }
 
-.header-page_navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .header-page_webstudio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,12 +133,6 @@ a {
 }
 
 .header-page_pages-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -160,7 +198,6 @@ a {
   color: #2196F3;
 }
 
-/* герой */
 .hero-page_header {
   font-family: "Roboto";
   font-style: normal;
@@ -172,22 +209,29 @@ a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
+@media screen and (min-width: 480px) {
+  .hero-page_header {
+    width: 480px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
 .window-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ff0000;
+  color: #212121;
 }
 
 .hero-page_service_button {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   display: -webkit-box;
@@ -205,10 +249,25 @@ a {
 .hero-page {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
-
+@media screen and (min-width: 480px) {
+  .hero-page {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  }
+}
 .contact-text {
   -webkit-transition-property: color;
   transition-property: color;
@@ -220,10 +279,27 @@ a {
           transition-delay: 250ms;
 }
 
-.hero-page_header {
-  padding-top: 74px;
-  padding-right: 237px;
-  padding-left: 237px;
+@media screen and (min-width: 480px) {
+  .hero-page_header {
+    width: 480px;
+    padding-top: 118px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-page_header {
+    width: 768px;
+    padding-top: 118px;
+    padding-left: 204px;
+    padding-right: 204px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-page_header {
+    width: 1200px;
+    padding-top: 200px;
+    padding-right: 400px;
+    padding-left: 400px;
+  }
 }
 
 .hero-page_service_button {
@@ -242,7 +318,6 @@ a {
   margin-top: 30px;
   border: none;
 }
-
 .close-window {
   height: 30px;
   width: 30px;
@@ -451,11 +526,6 @@ a {
 
 /* Футер */
 .footer-page_adress {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -471,31 +541,16 @@ a {
 }
 
 .footer-page_contact-email-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-page_contact-telefon-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-page_contact-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -505,8 +560,6 @@ a {
 }
 
 .footer-page_email-subscribe-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -554,8 +607,6 @@ a {
   width: 200px;
   height: 50px;
   text-align: left;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -590,24 +641,12 @@ a {
 }
 
 .footer-page_email-subscribe-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-right: 250px;
   position: relative;
   bottom: 100px;
 }
 
 .footer-page_social-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-right: 250px;
   bottom: 100px;
   position: relative;
@@ -630,12 +669,6 @@ a {
   height: 40px;
   width: 44px;
   border-radius: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 29px;
   background-color: #3b3b3b;
 }
@@ -653,9 +686,6 @@ a {
 }
 
 .main-page_photos-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;

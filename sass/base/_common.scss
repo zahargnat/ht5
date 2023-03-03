@@ -1,5 +1,5 @@
 .container{
-width: 1200px;
+width: 100%;
 outline: solid rgb(255, 0, 0);
 padding-left: 15px;
 padding-right: 15px;
@@ -8,10 +8,8 @@ margin-right: auto;
 
 
 @media screen and (min-width: 480px ) {
-width: 480px;
-outline: solid rgb(255, 0, 0);
-margin-left: auto;
-margin-right: auto;
+width: 480px; 
+height: 400px;
 }
 @media screen and (min-width: 768px ){
 width: 768px;
@@ -20,7 +18,8 @@ margin-left: auto;
 margin-right: auto;
 }
 @media screen and (min-width: 1200px ){
-width: 1200px;
+    width: 1200px;
+    height: 600px;
 outline: solid rgb(255, 0, 0);
 margin-left: auto;
 margin-right: auto;
