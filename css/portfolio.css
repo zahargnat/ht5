@@ -528,11 +528,44 @@ img {
 }
 
 /* Футер */
+.footer-page_email_subscribe {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 480px) {
+  .footer-page_email_subscribe {
+    position: absolute;
+    bottom: 200px;
+    left: 137px;
+  }
+}
 .footer-page_adress {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_adress {
+    position: relative;
+    top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-page_adress {
+    margin-right: 460px;
+  }
+}
 .footer-page_webstudio-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -542,17 +575,72 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_webstudio-logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    position: relative;
+    top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-page_webstudio-logo {
+    margin-right: 499px;
+  }
+}
 .footer-page_contact-email-item {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_contact-email-item {
+    position: relative;
+    top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-page_contact-email-item {
+    margin-right: 460px;
+  }
+}
 .footer-page_contact-telefon-item {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_contact-telefon-item {
+    position: relative;
+    top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-page_contact-telefon-item {
+    margin-right: 460px;
+  }
+}
 .footer-page_contact-text {
   letter-spacing: 0.03em;
   color: #FFFFFF;
@@ -576,11 +664,33 @@ img {
   background-color: #2F303A;
   position: relative;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page {
+    width: 480px;
+    height: 603px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-page {
+    width: 768px;
+    height: 463px;
+  }
+}
 .container .footer-page {
   height: 252px;
 }
-
+@media screen and (min-width: 480px) {
+  .container .footer-page {
+    width: 480px;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container .footer-page {
+    width: 768px;
+    height: 463px;
+  }
+}
 .footer-page_email-input {
   position: absolute;
   right: 240px;
@@ -599,7 +709,14 @@ img {
   padding-left: 50px;
   color: #FFFFFF;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_email-input {
+    width: 450px;
+    position: absolute;
+    right: 20px;
+    top: 423px;
+  }
+}
 .footer-page_email-button {
   background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -625,7 +742,13 @@ img {
   border-radius: 4px;
   color: #FFFFFF;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_email-button {
+    position: absolute;
+    right: 140px;
+    top: 493px;
+  }
+}
 .footer-page_email-send-icon {
   width: 24px;
   height: 24px;
@@ -634,7 +757,13 @@ img {
   top: 45px;
   fill: #FFFFFF;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_email-send-icon {
+    position: absolute;
+    right: 168px;
+    top: 506px;
+  }
+}
 .footer-page_contact-text {
   color: white;
   position: relative;
@@ -648,13 +777,28 @@ img {
   position: relative;
   bottom: 100px;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_email-subscribe-text {
+    margin-right: 0;
+    top: 140px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-page_email-subscribe-text {
+    top: 1px;
+  }
+}
 .footer-page_social-list {
   margin-right: 250px;
   bottom: 100px;
   position: relative;
 }
-
+@media screen and (min-width: 480px) {
+  .footer-page_social-list {
+    margin-right: 0;
+    top: 140px;
+  }
+}
 .footer-page_social-item {
   display: block;
   margin-right: 10px;

@@ -1,8 +1,46 @@
 /* Футер */
+.footer-page_email_subscribe{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;  
+
+
+@media screen and (min-width: 480px ){
+position: absolute;
+bottom: 200px;
+left: 137px;
+}
+@media screen and (min-width: 768px ){
+             
+}
+@media screen and (min-width: 1200px ){
+      
+}
+}
+
 .footer-page_adress{
 @extend %text-style;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+
+
+@media screen and (min-width: 480px ){
+position: relative;
+top: 10px;
+display: flex;
+justify-content: center;
+}
+@media screen and (min-width: 768px ){
+margin-right: 460px;                       
+}
+@media screen and (min-width: 1200px ){
+              
+}
 }
     
 .footer-page_webstudio-logo{
@@ -13,18 +51,67 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #ffffff;
+
+
+@media screen and (min-width: 480px ){
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.03em;
+color: #ffffff; 
+position: relative;
+top: 10px;
+display: flex;
+justify-content: center;
+}
+@media screen and (min-width: 768px ){
+margin-right: 499px;
+}
+@media screen and (min-width: 1200px ){
+  
+}
 }
     
 .footer-page_contact-email-item{
 @extend%text-style;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+
+
+@media screen and (min-width: 480px ){
+position: relative;
+top: 10px;
+display: flex;
+justify-content: center;
+}
+@media screen and (min-width: 768px ){
+margin-right: 460px;                
+}
+@media screen and (min-width: 1200px ){
+          
+}
 }
     
 .footer-page_contact-telefon-item{
 @extend%text-style;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+
+
+@media screen and (min-width: 480px ){
+position: relative;
+top: 10px;
+display: flex;
+justify-content: center;
+}
+@media screen and (min-width: 768px ){
+margin-right: 460px;                   
+}
+@media screen and (min-width: 1200px ){
+          
+}
 }
     
 .footer-page_contact-text{
@@ -51,10 +138,36 @@ color: #FFFFFF;
 .footer-page{
 background-color: #2F303A;
 position: relative;
+
+
+@media screen and (min-width: 480px ){
+width: 480px;
+height: 603px;
+}
+@media screen and (min-width: 768px ){
+width: 768px;  
+height: 463px;     
+}
+@media screen and (min-width: 1200px ){
+      
+}
 }
     
 .container .footer-page{
 height: 252px;
+
+
+@media screen and (min-width: 480px ){
+width: 480px;
+height: 100%;
+}
+@media screen and (min-width: 768px ){
+width: 768px;   
+height:463px;        
+}
+@media screen and (min-width: 1200px ){
+      
+}
 }
     
 .footer-page_email-input{
@@ -72,6 +185,19 @@ height: 50px;
 width: 358px;
 padding-left: 50px;
 color: #FFFFFF;
+
+
+@media screen and (min-width: 480px ){
+width: 450px;
+position: absolute;
+right: 20px;
+top: 423px;
+}
+@media screen and (min-width: 768px ){               
+}
+@media screen and (min-width: 1200px ){
+          
+}
 }
     
 .footer-page_email-button{
@@ -94,6 +220,19 @@ letter-spacing: 0.06em;
 border: none;
 border-radius: 4px;
 color: #FFFFFF;
+
+
+@media screen and (min-width: 480px ){
+position: absolute;
+right: 140px;
+top: 493px;
+}
+@media screen and (min-width: 768px ){
+                     
+}
+@media screen and (min-width: 1200px ){
+              
+}
 }
     
 .footer-page_email-send-icon{
@@ -103,6 +242,19 @@ position: absolute;
 right: 60px;
 top: 45px;
 fill: #FFFFFF;;
+
+
+@media screen and (min-width: 480px ){
+position: absolute;
+right: 168px;
+top: 506px;
+}
+@media screen and (min-width: 768px ){
+                 
+}
+@media screen and (min-width: 1200px ){
+          
+}
 }
     
 .footer-page_contact-text{
@@ -118,6 +270,20 @@ color: rgba(255, 255, 255, 0.6);
 margin-right: 250px;
 position: relative;
 bottom: 100px;
+
+
+@media screen and (min-width: 480px ){
+margin-right: 0;
+top: 140px;
+}
+@media screen and (min-width: 768px ){
+top: 1px;
+
+
+}
+@media screen and (min-width: 1200px ){
+          
+}
 }
     
 .footer-page_social-list{
@@ -125,6 +291,18 @@ bottom: 100px;
 margin-right: 250px;
 bottom: 100px;
 position: relative;
+
+
+@media screen and (min-width: 480px ){
+margin-right: 0;
+top: 140px;
+}
+@media screen and (min-width: 768px ){
+
+}
+@media screen and (min-width: 1200px ){
+          
+}
 }
     
 .footer-page_social-item{
