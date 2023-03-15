@@ -1,4 +1,78 @@
+footer .container div{
+    outline: solid  rgba(255, 0, 0, 0);
+}
+
+footer .container{
+display: flex;
+flex-wrap: wrap;
+@media screen and (min-width: 768px ){
+             
+}
+@media screen and (min-width: 1200px ){
+flex-wrap: nowrap;
+}
+}
+
+
+.footer_adress{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+@media screen and (min-width: 480px ){
+margin-left: 120px;
+margin-right: 120px;
+
+}
+@media screen and (min-width: 768px ){
+margin-left: 0;
+margin-right: 100px;
+margin-top: 30px;
+position: relative;
+right: 100px;
+}
+@media screen and (min-width: 1200px ){
+      
+}
+}
+
+.footer_social{
+padding-top: 60px;
+
+
+@media screen and (min-width: 480px ){
+padding-bottom: 30px;
+}
+@media screen and (min-width: 768px ){
+position: relative;
+left: 350px;
+bottom: 120px;
+}
+@media screen and (min-width: 1200px ){
+left: 0;
+bottom: 0;
+width: 260px;
+}
+}
+
 /* Футер */
+
+.footer-page_contact-list{
+padding-top: 20px;
+
+
+@media screen and (min-width: 480px ){
+
+}
+@media screen and (min-width: 768px ){
+                 
+}
+@media screen and (min-width: 1200px ){
+          
+}
+}
+
 .footer-page_email_subscribe{
 font-family: 'Roboto';
 font-style: normal;
@@ -11,12 +85,11 @@ color: #FFFFFF;
 
 
 @media screen and (min-width: 480px ){
-position: absolute;
-bottom: 200px;
-left: 137px;
+
 }
 @media screen and (min-width: 768px ){
-             
+margin-left: 288px;
+margin-bottom: 20px;          
 }
 @media screen and (min-width: 1200px ){
       
@@ -30,13 +103,11 @@ color: #FFFFFF;
 
 
 @media screen and (min-width: 480px ){
-position: relative;
-top: 10px;
 display: flex;
 justify-content: center;
 }
 @media screen and (min-width: 768px ){
-margin-right: 460px;                       
+                   
 }
 @media screen and (min-width: 1200px ){
               
@@ -54,20 +125,19 @@ color: #ffffff;
 
 
 @media screen and (min-width: 480px ){
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
 font-size: 24px;
 line-height: 28px;
-letter-spacing: 0.03em;
-color: #ffffff; 
-position: relative;
-top: 10px;
+height: 28px;
 display: flex;
 justify-content: center;
+margin-left: 163px;
+margin-top: 60px;
 }
 @media screen and (min-width: 768px ){
-margin-right: 499px;
+margin-top: 0px;
+margin-left: 0px;
+position: relative;
+left: 70px;
 }
 @media screen and (min-width: 1200px ){
   
@@ -81,13 +151,12 @@ color: rgba(255, 255, 255, 0.6);
 
 
 @media screen and (min-width: 480px ){
-position: relative;
-top: 10px;
+
 display: flex;
 justify-content: center;
 }
 @media screen and (min-width: 768px ){
-margin-right: 460px;                
+        
 }
 @media screen and (min-width: 1200px ){
           
@@ -101,13 +170,12 @@ color: rgba(255, 255, 255, 0.6);
 
 
 @media screen and (min-width: 480px ){
-position: relative;
-top: 10px;
+
 display: flex;
 justify-content: center;
 }
 @media screen and (min-width: 768px ){
-margin-right: 460px;                   
+               
 }
 @media screen and (min-width: 1200px ){
           
@@ -118,6 +186,17 @@ margin-right: 460px;
 @extend%text-style;
 letter-spacing: 0.03em;
 color: #FFFFFF;   
+
+
+@media screen and (min-width: 480px ){
+
+}
+@media screen and (min-width: 768px ){
+margin-left: 168px;       
+}
+@media screen and (min-width: 1200px ){
+              
+}
 }
     
 .footer-page_webstudio-logo-color{
@@ -138,42 +217,9 @@ color: #FFFFFF;
 .footer-page{
 background-color: #2F303A;
 position: relative;
-
-
-@media screen and (min-width: 480px ){
-width: 480px;
-height: 603px;
-}
-@media screen and (min-width: 768px ){
-width: 768px;  
-height: 463px;     
-}
-@media screen and (min-width: 1200px ){
-      
-}
-}
-    
-.container .footer-page{
-height: 252px;
-
-
-@media screen and (min-width: 480px ){
-width: 480px;
-height: 100%;
-}
-@media screen and (min-width: 768px ){
-width: 768px;   
-height:463px;        
-}
-@media screen and (min-width: 1200px ){
-      
-}
 }
     
 .footer-page_email-input{
-position: absolute;
-right: 240px;
-top: 35px;
 background: #2F303A;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 width: 200px;
@@ -189,23 +235,20 @@ color: #FFFFFF;
 
 @media screen and (min-width: 480px ){
 width: 450px;
-position: absolute;
-right: 20px;
-top: 423px;
+
 }
-@media screen and (min-width: 768px ){               
+@media screen and (min-width: 768px ){        
+margin-left: 166px;       
 }
 @media screen and (min-width: 1200px ){
-          
+margin-left: 0;
+margin-right: 100px;
 }
 }
     
 .footer-page_email-button{
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-position: absolute;
-right: 33px;
-top: 35px;
 width: 200px;
 height: 50px;
 text-align: left ;
@@ -223,85 +266,83 @@ color: #FFFFFF;
 
 
 @media screen and (min-width: 480px ){
-position: absolute;
-right: 140px;
-top: 493px;
+padding-left: 40px;
+margin-left: 140px;
 }
 @media screen and (min-width: 768px ){
-                     
+margin-left: 300px;        
 }
 @media screen and (min-width: 1200px ){
-              
+margin-left: 0; 
 }
 }
     
 .footer-page_email-send-icon{
 width: 24px;
 height: 24px;
-position: absolute;
-right: 60px;
-top: 45px;
 fill: #FFFFFF;;
-
+position: relative;
 
 @media screen and (min-width: 480px ){
-position: absolute;
-right: 168px;
-top: 506px;
+bottom: 35px;
+left: 288px;
 }
 @media screen and (min-width: 768px ){
-                 
+    left: 448px;         
 }
 @media screen and (min-width: 1200px ){
-          
+left: 0;
 }
 }
     
 .footer-page_contact-text{
 color: white;
-position: relative;
-left: 620px;
-bottom: 50px;
 color: rgba(255, 255, 255, 0.6);
+position: relative;
+
+@media screen and (min-width: 480px ){
+bottom: 35px;
+}
+@media screen and (min-width: 768px ){
+
+}
+@media screen and (min-width: 1200px ){
+bottom: 0;
+}
 }
     
 .footer-page_email-subscribe-text{
 @extend%flex;
-margin-right: 250px;
-position: relative;
-bottom: 100px;
+
+
 
 
 @media screen and (min-width: 480px ){
-margin-right: 0;
-top: 140px;
+text-align: center;
+margin-left: 100px;
 }
 @media screen and (min-width: 768px ){
-top: 1px;
 
 
 }
 @media screen and (min-width: 1200px ){
-          
+margin-right: 250px;       
 }
 }
     
 .footer-page_social-list{
 @extend%flex;
-margin-right: 250px;
-bottom: 100px;
-position: relative;
+
 
 
 @media screen and (min-width: 480px ){
-margin-right: 0;
-top: 140px;
+margin-left: 137px;
 }
 @media screen and (min-width: 768px ){
 
 }
 @media screen and (min-width: 1200px ){
-          
+margin-right: 250px;     
 }
 }
     
@@ -309,13 +350,32 @@ top: 140px;
 display: block;
 margin-right: 10px;
 fill: #FFFFFF;
-position: relative;
+
+
+@media screen and (min-width: 480px ){
+align-items: center;
+}
+@media screen and (min-width: 768px ){
+
+}
+@media screen and (min-width: 1200px ){
+    
+}
 }
     
 .footer-page_social-svg{
 position: relative;
+
+@media screen and (min-width: 480px ){
 bottom: 30px;
 left: 12px;
+}
+@media screen and (min-width: 768px ){
+    
+}
+@media screen and (min-width: 1200px ){
+    
+}
 }
     
 .footer-page_social-link{
@@ -323,6 +383,16 @@ height: 40px;
 width: 44px;
 border-radius: 50px;
 @extend%flex;
-margin-top: 29px;
 background-color: #3b3b3b;
+
+
+@media screen and (min-width: 480px ){
+
+}
+@media screen and (min-width: 768px ){
+
+}
+@media screen and (min-width: 1200px ){
+margin-top: 29px;        
+}
 }
