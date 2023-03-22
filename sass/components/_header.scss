@@ -26,6 +26,14 @@ display: none;
 }
 @media screen and (min-width: 768px) {
 display: flex;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #000000;
+margin-right: 51px;
 }
 @media screen and (min-width: 1200px) {
               
@@ -92,6 +100,7 @@ display: none;
 }
 @media screen and (min-width: 768px) {
 display: flex;
+
 }
 @media screen and (min-width: 1200px) {
       
@@ -118,6 +127,7 @@ margin-right: 30px;
 }
 @media screen and (min-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
 }
 @media screen and (min-width: 1200px) {
       
