@@ -49,7 +49,7 @@
 
 .container {
   width: 100%;
-  outline: solid rgba(255, 0, 0, 0);
+  outline: solid rgba(0, 0, 0, 0);
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -63,7 +63,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    outline: solid rgb(255, 0, 0);
+    outline: solid rgba(255, 0, 0, 0);
     margin-left: auto;
     margin-right: auto;
   }
@@ -71,7 +71,7 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    outline: solid rgb(255, 0, 0);
+    outline: solid rgba(255, 0, 0, 0);
     margin-left: auto;
     margin-right: auto;
   }
@@ -228,6 +228,18 @@ img {
         flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 768px) {
+  .header__contacts {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .header__phone {
     display: none;
@@ -463,6 +475,20 @@ img {
     color: #FFFFFF;
   }
 }
+@media screen and (min-width: 768px) {
+  .hero-page_header {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-page_header {
+    font-size: 44px;
+    line-height: 60px;
+  }
+}
+
 .window-text {
   font-size: 20px;
   line-height: 23px;
@@ -537,8 +563,6 @@ img {
   .hero-page_header {
     width: 1200px;
     padding-top: 200px;
-    padding-right: 400px;
-    padding-left: 400px;
   }
 }
 
@@ -616,9 +640,6 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -626,11 +647,38 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .hero-page_background-modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-page_background-modal {
+    width: 528px;
+  }
+}
 
 .hero-page_close-svg {
   position: absolute;
   right: 12px;
   top: 6px;
+}
+@media screen and (min-width: 480px) {
+  .hero-page_close-svg {
+    right: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-page_close-svg {
+    right: 12px;
+    top: 6px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-page_close-svg {
+    right: 12px;
+    top: 6px;
+  }
 }
 
 .backdrop {
@@ -653,6 +701,21 @@ img {
   margin-left: 14px;
   fill: currentColor;
 }
+@media screen and (min-width: 480px) {
+  .hero-page_your-info-svg {
+    left: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-page_your-info-svg {
+    left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-page_your-info-svg {
+    left: 30px;
+  }
+}
 
 .hero-page_close {
   width: 30px;
@@ -663,7 +726,16 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-
+@media screen and (min-width: 480px) {
+  .hero-page_close {
+    margin-left: 460px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-page_close {
+    margin-left: 408px;
+  }
+}
 .hero-page_close:hover {
   color: #2196F3;
 }
@@ -705,8 +777,8 @@ img {
   margin-left: 80px;
   position: absolute;
   top: 425px;
+  display: block;
 }
-
 .hero-page_your-info-send-info {
   display: block;
   position: relative;
@@ -727,7 +799,6 @@ img {
   padding-right: 58px;
   color: #FFFFFF;
 }
-
 .hero-page_your-info-label {
   display: block;
   margin-bottom: 10px;
@@ -735,9 +806,12 @@ img {
   font-weight: 400;
   font-size: 12px;
   color: #757575;
-  margin-right: 800px;
 }
-
+@media screen and (min-width: 480px) {
+  .hero-page_your-info-label {
+    text-align: left;
+  }
+}
 .hero-page_your-info-name {
   width: 448px;
   height: 40px;
@@ -751,7 +825,11 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
+@media screen and (min-width: 768px) {
+  .hero-page_your-info-name {
+    width: 370px;
+  }
+}
 .hero-page_your-info-comments {
   height: 120px;
   width: 448px;
@@ -759,7 +837,21 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-
+@media screen and (min-width: 480px) {
+  .hero-page_your-info-comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-page_your-info-comments {
+    width: 370px;
+  }
+}
 .info-input .backdrop-svg {
   position: relative;
 }
@@ -767,13 +859,11 @@ img {
 @media screen and (min-width: 480px) {
   .main-page .container {
     width: 450px;
-    height: 994px;
   }
 }
 @media screen and (min-width: 768px) {
   .main-page .container {
     width: 738px;
-    height: 480px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -791,6 +881,12 @@ img {
   text-transform: uppercase;
   color: #212121;
 }
+@media screen and (min-width: 1200px) {
+  .main-page_name {
+    padding-bottom: 10px;
+  }
+}
+
 .main-page_text {
   letter-spacing: 0.03em;
   color: #757575;
@@ -811,7 +907,7 @@ img {
 @media screen and (min-width: 1200px) {
   .main-page_headers {
     width: 270px;
-    margin-right: 10px;
+    margin-right: 30px;
   }
 }
 
@@ -969,14 +1065,17 @@ img {
   height: 70px;
   position: relative;
   color: white;
-  right: 400px;
-  top: 225px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .main-zanyatya-page_label-zanyatya {
+    bottom: 73px;
+  }
 }
 
 .main-zanyatya-page_label-list {
@@ -985,7 +1084,6 @@ img {
 }
 
 .main-zanyatya-page .container {
-  padding-top: 94px;
   padding-bottom: 76px;
 }
 .main-zanyatya-page {
@@ -1099,8 +1197,7 @@ img {
 @media screen and (min-width: 768px) {
   .main-team-page_team-item {
     width: 354px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    margin-right: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1177,6 +1274,11 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 1200px) {
+  .main-clients-page_title {
+    padding-top: 94px;
+  }
 }
 
 .clients .container {

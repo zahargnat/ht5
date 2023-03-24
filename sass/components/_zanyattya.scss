@@ -28,10 +28,20 @@ width: 370px;
 height: 70px;
 position: relative;
 color: white;
-right: 400px;
-top: 225px; 
 align-items: center;
 justify-content: center ;
+
+
+
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 768px) {
+                
+}
+@media screen and (min-width: 1200px) {
+bottom: 73px;                     
+} 
 }
         
 .main-zanyatya-page_label-list{
@@ -40,7 +50,6 @@ height: 0px;
 }
 
 .main-zanyatya-page .container{
-padding-top: 94px;
 padding-bottom: 76px;
 
 
@@ -51,7 +60,7 @@ padding-bottom: 76px;
      
 }
 @media screen and (min-width: 1200px ){
-    
+
 }
 }
 
@@ -69,3 +78,4 @@ display: none;
 display: block;
 }
 }
+

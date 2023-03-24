@@ -128,6 +128,7 @@ margin-left: auto;
 margin-right: 30px;
 
 
+
 @media screen and (min-width: 480px) {
     display: none;
 }
@@ -137,6 +138,21 @@ margin-right: 30px;
 }
 @media screen and (min-width: 1200px) {
       
+}
+}
+
+.header__contacts{
+
+
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 768px) {
+margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+margin-right: 30px;     
+margin-bottom: 0; 
 }
 }
 
@@ -363,3 +379,5 @@ margin-right: 100px;
                   
 }  
 }
+
+
