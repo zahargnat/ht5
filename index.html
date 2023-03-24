@@ -51,11 +51,20 @@
             </a>
           </li>
         </ul>
-        <button type="button" class="button" data-open-menu></button>
+        <button type="button" class="button" >
+          <svg class="header__modal-open" width="20" height="20">
+            <use
+              href="./img/symbol-defs.svg#icon-open-modal"
+              class="hero-page_close-use"
+              data-open-menu
+            ></use>
+          </svg>
+        </button>
         <!-- МОДАЛКА -->
         <div class="overlay is-hidden" data-overlay>
           <div class="header_menu">
-            <button type="button" data-close-menu>X</button>
+            <button type="button" data-close-menu>X
+            </button>
             <ul class="header__pages-list_modal">
               <li class="header__page-item_modal">
                 <a href="./index.html" class="header__page_modal">Студія</a>

@@ -151,6 +151,10 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    outline: #fff;
+    background: none;
+    border-radius: 1px;
+    border: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1531,6 +1535,7 @@ footer .container {
   .footer-page_email-button {
     padding-left: 40px;
     margin-left: 140px;
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1540,7 +1545,8 @@ footer .container {
 }
 @media screen and (min-width: 1200px) {
   .footer-page_email-button {
-    margin-left: 0;
+    margin-left: 12px;
+    margin-top: 0;
   }
 }
 

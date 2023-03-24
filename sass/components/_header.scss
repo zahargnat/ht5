@@ -65,6 +65,10 @@ margin-left: 150px;
 
 @media screen and (min-width: 480px) {
 display:flex ;
+outline: #fff;
+background: none;
+border-radius: 1px;
+border: none;
 }
 @media screen and (min-width: 768px) {
 display: none;
@@ -73,6 +77,8 @@ display: none;
           
 }
 }
+
+
 
 .header-page .container {
 display: flex;

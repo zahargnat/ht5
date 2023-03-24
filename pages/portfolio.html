@@ -17,42 +17,93 @@
     <!-- Голова сайту -->
     <header class="header-page">
       <div class="container">
-        <nav class="header-page_navigation">
-          <a href="/" class="header-page_webstudio"> <span class="header-page_logocolor">Web</span>Studio</a>
-          <ul class="header-page_pages-list">
-            <li class="header-page_pages-item">
-              <a href="../index.html" class="header-page_page">Студія</a>
-            </li>
-            <li class="header-page_pages-item">
-              <a href="./pages/portfolio.html" class="header-page_page">Портфоліо</a>
-            </li>
-            <li class="header-page_pages-item">
-              <a href="#" class="header-page_page">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="header-page_contacts-list">
-          <li class="header-page_contacts-item">
-            <a href="mailto:info@example.com" class="header-page_contacts-link">
-              <svg width="16px" height="12px" class="header-page_contacts-svg">
-                <use href="./img/symbol-defs.svg#icon-email">  
-                  
-                </use>
-              </svg>
-              <span class="header-page_contacts-text">info@example.com</span>
-            </a>
+        <a href="/" class="header__webstudio">
+          <span class="header__logocolor">Web</span>Studio</a
+        >
+        <ul class="header__pages-list">
+          <li class="header__page-item">
+            <a href="./index.html" class="header__page">Студія</a>
           </li>
-          <li class="header-contacts">
-            <a href="tel:+380991111111" class="header-page_contacts-link">
-            <svg width="10px" height="16px" class="header-page_contacts-svg">
-              <use href="./img/symbol-defs.svg#icon-phone">  
-                
-              </use>
-            </svg>
-            <span class="header-page_contacts-text">+38 096 111 11 11</span>
-          </a>
+          <li class="header__page-item">
+            <a href="./pages/portfolio.html" class="header__page">Портфоліо</a>
+          </li>
+          <li class="header__page-item">
+            <a href="#" class="header__page">Контакти</a>
           </li>
         </ul>
+        <ul class="header__contacts-list">
+          <li class="header__contacts">
+            <a href="tel:+380991111111" class="header__contact">
+              <svg width="10px" height="16px" class="header__contact-svg">
+                <use href="./img/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <span class="header__phone">+38 096 111 11 11</span>
+            </a>
+          </li>
+          <li class="header__contacts">
+            <a href="mailto:info@example.com" class="header__contact">
+              <svg width="16px" height="12px" class="header__contact-svg">
+                <use href="./img/symbol-defs.svg#icon-email"></use>
+              </svg>
+              <span class="header__email">info@example.com</span>
+            </a>
+          </li>
+        </ul>
+        <button type="button" class="button" >
+          <svg class="header__modal-open" width="20" height="20">
+            <use
+              href="../img/symbol-defs.svg#icon-open-modal"
+              class="hero-page_close-use"
+              data-open-list
+            ></use>
+          </svg>
+        </button>
+        <!-- МОДАЛКА -->
+        <div class="overlay is-hidden" data-overlaypf>
+          <div class="header_menu">
+            <button type="button" data-close-list>X
+            </button>
+            <ul class="header__pages-list_modal">
+              <li class="header__page-item_modal">
+                <a href="./index.html" class="header__page_modal">Студія</a>
+              </li>
+              <li class="header__page-item_modal">
+                <a href="./pages/portfolio.html" class="header__page_modal"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="header__page-item_modal">
+                <a href="#" class="header__page_modal">Контакти</a>
+              </li>
+            </ul>
+            <ul class="header__contacts-list_modal">
+              <li class="header__contacts_modal">
+                <a href="tel:+380991111111" class="header__contact_modal">
+                  <svg
+                    width="10px"
+                    height="16px"
+                    class="header__contact-svg_modal"
+                  >
+                    <use href="./img/symbol-defs.svg#icon-phone"></use>
+                  </svg>
+                  <span class="header__phone_modal">+38 096 111 11 11</span>
+                </a>
+              </li>
+              <li class="header__contacts_modal">
+                <a href="mailto:info@example.com" class="header__contact_modal">
+                  <svg
+                    width="16px"
+                    height="12px"
+                    class="header__contact-svg_modal"
+                  >
+                    <use href="./img/symbol-defs.svg#icon-email_modal"></use>
+                  </svg>
+                  <span class="header__email_modal">info@example.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <!-- Головна частина -->
@@ -165,67 +216,83 @@
         </section>
       </main>
    <!-- Низ -->
-   <section class="footer-page">
+   <footer class="footer-page">
     <div class="container">
-    <footer>
-    <a href="./index.html" class="footer-page_webstudio-logo"> <span class="footer-page_webstudio-logo-color">Web</span> Studio</a>
-    <address class="footer-page_adress">м. Київ, пр-т Лесі Українки, 26</address>
-    <ul class="footer-page_contact-list">
-      <li class="footer-page_contact-email">
-        <a href="mailto:info@example.com" class="footer-page_contact-email-item"
-          >info@example.com</a
-        >
-      </li>
-      <li class="footer-page_contact-telefon">
-        <a href="tel:+380991111111" class="footer-page_contact-telefon-item">+38 099 111 11 11</a>
-      </li>
-    </ul>
-    <input id="name" type="text" class="footer-page_email-input">
-    <p class="footer-page_contact-text">E-mail</p>
-    <button type="button" class="footer-page_email-button">Підписатись</button>
-    <svg width="24" heighr="24" class="footer-page_email-send-icon">
-      <use href="./img/symbol-defs.svg#icon-send">
-
-      </use>
-    </svg>
-    <p class="footer-page_email-subscribe-text">приєднуйтесь</p>
-    <ul class="footer-page_social-list">
-      <li class="footer-page_social-item">
-        <a href="/" class="footer-page_social-link"></a>
-        <svg width="20" height="20" class="footer-page_social-svg">
-          <use href="./img/symbol-defs.svg#icon-instagram">
-
-          </use>
+      <a href="./index.html" class="footer-page_webstudio-logo">
+        <span class="footer-page_webstudio-logo-color">Web</span> Studio</a
+      >
+      <div class="footer_adress">
+        <ul class="footer-page_contact-list">
+          <li class="footer-page_contact-email">
+            <address class="footer-page_adress">
+              м. Київ, пр-т Лесі Українки, 26
+            </address>
+          </li>
+          <li class="footer-page_contact-email">
+            <a
+              href="mailto:info@example.com"
+              class="footer-page_contact-email-item"
+              >info@example.com</a
+            >
+          </li>
+          <li class="footer-page_contact-telefon">
+            <a
+              href="tel:+380991111111"
+              class="footer-page_contact-telefon-item"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer_social">
+        <p class="footer-page_email-subscribe-text">приєднуйтесь</p>
+        <ul class="footer-page_social-list">
+          <li class="footer-page_social-item">
+            <a href="/" class="footer-page_social-link"></a>
+            <svg width="20" height="20" class="footer-page_social-svg">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </li>
+          <li class="footer-page_social-item">
+            <a href="/" class="footer-page_social-link"></a>
+            <svg width="20" height="20" class="footer-page_social-svg">
+              <use href="./img/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </li>
+          <li class="footer-page_social-item">
+            <a href="/" class="footer-page_social-link"></a>
+            <svg width="20" height="20" class="footer-page_social-svg">
+              <use href="./img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </li>
+          <li class="footer-page_social-item">
+            <a href="/" class="footer-page_social-link"></a>
+            <svg width="20" height="20" class="footer-page_social-svg">
+              <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_input">
+        <p class="footer-page_email_subscribe">Підпишіться на розсилку</p>
+        <form class="footer__input-list">
+          <input
+            id="Email"
+            type="text"
+            class="footer-page_email-input"
+            placeholder="E-mail"
+          />
+          <button type="button" class="footer-page_email-button">
+            Підписатись
+          </button>
+        </form>
+        <svg width="24" height="24" class="footer-page_email-send-icon">
+          <use href="./img/symbol-defs.svg#icon-send"></use>
         </svg>
-      </li>
-      <li class="footer-page_social-item">
-        <a href="/" class="footer-page_social-link"></a>
-        <svg width="20" height="20" class="footer-page_social-svg">
-          <use href="./img/symbol-defs.svg#icon-twitter">
-
-          </use>
-        </svg>
-      </li>
-      <li class="footer-page_social-item">
-        <a href="/" class="footer-page_social-link"></a>
-        <svg width="20" height="20" class="footer-page_social-svg">
-          <use href="./img/symbol-defs.svg#icon-facebook">
-
-          </use>
-        </svg>
-      </li>
-      <li class="footer-page_social-item">
-        <a href="/" class="footer-page_social-link"></a>
-        <svg width="20" height="20" class="footer-page_social-svg">
-          <use href="./img/symbol-defs.svg#icon-linkedin">
-
-          </use>
-        </svg>
-      </li>
-    </ul>
+      </div>
     </div>
-  </section>
   </footer>
   <script src="./js/modal.js"></script>
+  <script src="./js/modalheader.js" type="module"></script>
 </body>
 </html>
