@@ -213,12 +213,12 @@ top: 6px;
 right: 25px;
 }
 @media screen and (min-width: 768px) {
-    right: 12px;
-    top: 6px;        
+right: 12px;
+top: 6px;        
 }
 @media screen and (min-width: 1200px) {
-    right: 12px;
-    top: 6px;            
+margin-left: 12px;
+top: 5px;            
 }  
 }
     
@@ -271,7 +271,7 @@ margin-left: 460px;
 margin-left: 408px;                    
 }
 @media screen and (min-width: 1200px) {
-                  
+margin-left: 485px;       
 }  
 }
     
@@ -392,7 +392,7 @@ justify-content: center;
 width: 370px;
 }
 @media screen and (min-width: 1200px) {
-       
+    width: 448px;      
 }
 }
     
@@ -412,7 +412,7 @@ justify-content: flex-start;
 width: 370px;
 }
 @media screen and (min-width: 1200px) {
-
+width: 448px;
 }  
 }
     

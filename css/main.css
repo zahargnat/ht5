@@ -676,8 +676,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero-page_close-svg {
-    right: 12px;
-    top: 6px;
+    margin-left: 12px;
+    top: 5px;
   }
 }
 
@@ -736,6 +736,12 @@ img {
     margin-left: 408px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero-page_close {
+    margin-left: 485px;
+  }
+}
+
 .hero-page_close:hover {
   color: #2196F3;
 }
@@ -830,6 +836,12 @@ img {
     width: 370px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero-page_your-info-name {
+    width: 448px;
+  }
+}
+
 .hero-page_your-info-comments {
   height: 120px;
   width: 448px;
@@ -852,6 +864,12 @@ img {
     width: 370px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero-page_your-info-comments {
+    width: 448px;
+  }
+}
+
 .info-input .backdrop-svg {
   position: relative;
 }
