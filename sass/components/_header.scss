@@ -229,8 +229,7 @@ background: rgba(0,0,0,0.6);
 top: 0;
 left: 0;
 }
-.overlay.is-hidden{
-opacity: 0;
+.overlay.is-hidden{opacity: 0;
 pointer-events: none;
 transition: all 0.2s ease-in;
 }
@@ -240,18 +239,40 @@ height: 796px;
 margin: 0 auto;
 height: 100%;
 background-color: #fff;
+
+
+@media screen and (min-width: 480px) {
+display: flex;
+flex-direction: column;
+
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1200px) {
+       
+} 
 }
     
 // МОДАЛКА
+.header__modal_open{
+width: 30px;
+height: 30px;
+background: none;
+margin-left: 448px
+}
+
 .header__pages-list_modal{
 @extend%flex2;
-justify-content: center;
+
     
     
 @media screen and (min-width: 480px) {
 flex-wrap: wrap;
+display: flex;
+flex-direction: column;
 padding-right: 200px;
-margin-bottom: 302px;
+padding-bottom: 302px;
 }
 @media screen and (min-width: 768px) {
 display: flex;
@@ -343,6 +364,7 @@ fill: #2196F3;
 
     
 @media screen and (min-width: 480px) {
+display: block;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -351,7 +373,7 @@ line-height: 28px;
 letter-spacing: 0.02em;
 color: #757575;     
 margin-right: 140px;     
-margin-top: 32px;
+margin-bottom: 34px;
 }
 @media screen and (min-width: 768px) {
                     
@@ -363,6 +385,7 @@ margin-top: 32px;
 
 .header__phone_modal{
 @media screen and (min-width: 480px) {
+display: block;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -371,6 +394,7 @@ line-height: 40px;
 letter-spacing: 0.02em;
 color: #2196F3;
 margin-right: 100px;
+margin-bottom: 32px;
 }
 @media screen and (min-width: 768px) {
             
@@ -380,4 +404,21 @@ margin-right: 100px;
 }  
 }
 
+.header__social_modal-list{
+display: flex;
+}
+
+.header__social_modal-item{
+margin-right: 20px;
+}
+
+.header__social_modal-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
 

@@ -51,7 +51,7 @@
             </a>
           </li>
         </ul>
-        <button type="button" class="button" >
+        <button type="button" class="button">
           <svg class="header__modal-open" width="20" height="20">
             <use
               href="./img/symbol-defs.svg#icon-open-modal"
@@ -63,45 +63,67 @@
         <!-- МОДАЛКА -->
         <div class="overlay is-hidden" data-overlay>
           <div class="header_menu">
-            <button type="button" data-close-menu>X
+            <button type="button" class="header__modal_open" data-close-menu>
+              X
             </button>
-            <ul class="header__pages-list_modal">
-              <li class="header__page-item_modal">
-                <a href="./index.html" class="header__page_modal">Студія</a>
-              </li>
-              <li class="header__page-item_modal">
-                <a href="./pages/portfolio.html" class="header__page_modal"
-                  >Портфоліо</a
-                >
-              </li>
-              <li class="header__page-item_modal">
-                <a href="#" class="header__page_modal">Контакти</a>
-              </li>
-            </ul>
-            <ul class="header__contacts-list_modal">
-              <li class="header__contacts_modal">
-                <a href="tel:+380991111111" class="header__contact_modal">
-                  <svg
-                    width="10px"
-                    height="16px"
-                    class="header__contact-svg_modal"
+            <div class="header__pages-div_modal">
+              <ul class="header__pages-list_modal">
+                <li class="header__page-item_modal">
+                  <a href="./index.html" class="header__page_modal">Студія</a>
+                </li>
+                <li class="header__page-item_modal">
+                  <a href="./pages/portfolio.html" class="header__page_modal"
+                    >Портфоліо</a
                   >
-                    <use href="./img/symbol-defs.svg#icon-phone"></use>
-                  </svg>
-                  <span class="header__phone_modal">+38 096 111 11 11</span>
-                </a>
-              </li>
-              <li class="header__contacts_modal">
-                <a href="mailto:info@example.com" class="header__contact_modal">
-                  <svg
-                    width="16px"
-                    height="12px"
-                    class="header__contact-svg_modal"
+                </li>
+                <li class="header__page-item_modal">
+                  <a href="#" class="header__page_modal">Контакти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__contacts-div_modal">
+              <ul class="header__contacts-list_modal">
+                <li class="header__contacts_modal">
+                  <a href="tel:+380991111111" class="header__contact_modal">
+                    <svg
+                      width="10px"
+                      height="16px"
+                      class="header__contact-svg_modal"
+                    >
+                      <use href="./img/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                    <span class="header__phone_modal">+38 096 111 11 11</span>
+                  </a>
+                </li>
+                <li class="header__contacts_modal">
+                  <a
+                    href="mailto:info@example.com"
+                    class="header__contact_modal"
                   >
-                    <use href="./img/symbol-defs.svg#icon-email_modal"></use>
-                  </svg>
-                  <span class="header__email_modal">info@example.com</span>
-                </a>
+                    <svg
+                      width="16px"
+                      height="12px"
+                      class="header__contact-svg_modal"
+                    >
+                      <use href="./img/symbol-defs.svg#icon-email_modal"></use>
+                    </svg>
+                    <span class="header__email_modal">info@example.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="header__social_modal-list">
+              <li class="header__social_modal-item">
+                <a href="#" class="header__social_modal-text">Instagram</a>
+              </li>
+              <li class="header__social_modal-item">
+                <a href="#" class="header__social_modal-text">Twitter</a>
+              </li>
+              <li class="header__social_modal-item">
+                <a href="#" class="header__social_modal-text">Facebook</a>
+              </li>
+              <li class="header__social_modal-item">
+                <a href="#" class="header__social_modal-text">LinkedIn</a>
               </li>
             </ul>
           </div>
@@ -228,13 +250,15 @@
             <li class="main-page_headers">
               <h2 class="main-page_name">УВАГА ДО ДЕТАЛЕЙ</h2>
               <p class="main-page_text">
-                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
               </p>
             </li>
             <li class="main-page_headers">
               <h2 class="main-page_name">ПУНКТУАЛЬНІСТЬ</h2>
               <p class="main-page_text">
-                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
               </p>
             </li>
             <li class="main-page_headers">
@@ -246,7 +270,8 @@
             <li class="main-page_headers">
               <h2 class="main-page_name">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
               <p class="main-page_text">
-                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
               </p>
             </li>
           </ul>
@@ -258,31 +283,48 @@
           <h2 class="main-zanyatya-page_title">Чим ми займаємося</h2>
           <ul class="main-zanyatya-page_working-list">
             <li class="main-zanyatya-page_working-photo-item">
-              <img
-                src="./img/1.jpg"
-                alt="Програмування"
-                class="main-zanyatya-page_working-photo"
-              />
+              <picture class="main-zanyatya-page_working-photo">
+                <img
+                  src="./img/1.jpg"
+                  alt="Програмування"
+                  srcset="
+                    ./img/zannyatya1-desktop@1x.jpg 1x,
+                    ./img/zannyatya1-desktop@2x.jpg 2x
+                  "
+                />
+              </picture>
               <div class="main-zanyatya-page_label-zanyatya">
                 ДЕСКТОПНІ ЗАСТОСУНКИ
               </div>
             </li>
             <li class="main-zanyatya-page_working-photo-item">
-              <img
-                src="./img/2.jpg"
-                alt="Програвумання для телефону"
-                class="main-zanyatya-page_working-photo"
-              />        
+              <picture class="main-zanyatya-page_working-photo">
+                <img
+                  srcset="
+                    ./img/zannyatya2-desktop@1x.jpg 1x,
+                    ./img/zannyatya2-desktop@2x.jpg 2x
+                  "
+                  src="./img/2.jpg"
+                  alt="Програвумання для телефону"
+                />
+              </picture>
+
               <div class="main-zanyatya-page_label-zanyatya">
                 МОБІЛЬНІ ЗАСТОСУНКИ
               </div>
             </li>
             <li class="main-zanyatya-page_working-photo-item">
-              <img
-                src="./img/3.jpg"
-                alt="Дизайн"
-                class="main-zanyatya-page_working-photo"
-              />         
+              <picture class="main-zanyatya-page_working-photo">
+                <img
+                  srcset="
+                    ./img/zannyatya3-desktop@1x.jpg 1x,
+                    ./img/zannyatya3-desktop@1x.jpg 2x
+                  "
+                  src="./img/3.jpg"
+                  alt="Дизайн"
+                />
+              </picture>
+
               <div class="main-zanyatya-page_label-zanyatya">
                 ДИЗАЙНЕРСЬКІ РІШЕННЯ
               </div>
@@ -296,11 +338,22 @@
           <h2 class="main-team-page_title">Наша команда</h2>
           <ul class="main-team-page_team-list">
             <li class="main-team-page_team-item">
-              <img
-                src="./img/4.jpg"
-                alt="мужчина"
-                class="main-team-page_team-photo"
-              />
+              <picture class="main-team-page_team-photo">
+                <source
+                  srcset="./img/team1-desktop@1x 1x, ./img/team1-desktop@2x 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/team1-tablet@1x 1x, ./img/team1-tablet@2x 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/team1-mobile@1x 1x, ./img/team1-mobile@2x 2x"
+                  media="(min-width:480px)"
+                />
+                <img src="./img/4.jpg" alt="мужчина" />
+              </picture>
+
               <h3 class="main-team-page_team-name">Ігор Дем’яненко</h3>
               <p class="main-team-page_team-profecion">Product Designer</p>
               <ul class="main-team-page_social-list">
@@ -336,11 +389,22 @@
             </li>
 
             <li class="main-team-page_team-item">
-              <img
-                src="./img/5.jpg"
-                alt="женщина"
-                class="main-team-page_team-photo"
-              />
+              <picture class="main-team-page_team-photo">
+                <source
+                  srcset="./img/team2-desktop@1x 1x, ./img/team2-desktop@2x 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/team2-tablet@1x 1x, ./img/team2-tablet@2x 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/team2-mobile@1x 1x, ./img/team2-mobile@2x 2x"
+                  media="(min-width:480px)"
+                />
+                <img src="./img/5.jpg" alt="женщина" />
+              </picture>
+
               <h3 class="main-team-page_team-name">Ольга Репіна</h3>
               <p class="main-team-page_team-profecion">Frontend Developer</p>
               <ul class="main-team-page_social-list">
@@ -375,11 +439,22 @@
               </ul>
             </li>
             <li class="main-team-page_team-item">
-              <img
-                src="./img/6.jpg"
-                alt="Мужчина"
-                class="main-team-page_team-photo"
-              />
+              <picture class="main-team-page_team-photo">
+                <source
+                  srcset="./img/team3-desktop@1x 1x, ./img/team3-desktop@2x 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/team3-tablet@1x 1x, ./img/team3-tablet@2x 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/team3-mobile@1x 1x, ./img/team3-mobile@2x 2x"
+                  media="(min-width:480px)"
+                />
+                <img src="./img/6.jpg" alt="Мужчина" />
+              </picture>
+
               <h3 class="main-team-page_team-name">Микола Тарасов</h3>
               <p class="main-team-page_team-profecion">Marketing</p>
               <ul class="main-team-page_social-list">
@@ -414,11 +489,26 @@
               </ul>
             </li>
             <li class="main-team-page_team-item">
-              <img
+              <picture class="main-team-page_team-photo">
+                <source
+                  srcset="./img/team4-desktop@1x 1x, ./img/team4-desktop@2x 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/team4-tablet@1x 1x, ./img/team4-tablet@2x 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/team4-mobile@1x 1x, ./img/team4-mobile@2x 2x"
+                  media="(min-width:480px)"
+                /> <img
                 src="./img/7.jpg"
                 alt="мужчина"
-                class="main-team-page_team-photo"
+    
               />
+          
+              </picture>
+             
               <h3 class="main-team-page_team-name">Михайло Єрмаков</h3>
               <p class="main-team-page_team-profecion">UI Designer</p>
               <ul class="main-team-page_social-list">
@@ -520,7 +610,7 @@
                 <svg
                   width="88.48"
                   height="45.44"
-                  class="main-clients-page_client-icon"
+                  class="main-clients-page_client-icon"~
                 >
                   <use href="/img/symbol-defs.svg#icon-tagline"></use>
                 </svg>

@@ -327,18 +327,37 @@ img {
   height: 100%;
   background-color: #fff;
 }
-
-.header__pages-list_modal {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (min-width: 480px) {
+  .header_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
+.header__modal_open {
+  width: 30px;
+  height: 30px;
+  background: none;
+  margin-left: 448px;
+}
+
 @media screen and (min-width: 480px) {
   .header__pages-list_modal {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-right: 200px;
-    margin-bottom: 302px;
+    padding-bottom: 302px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -419,6 +438,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .header__email_modal {
+    display: block;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -427,11 +447,12 @@ img {
     letter-spacing: 0.02em;
     color: #757575;
     margin-right: 140px;
-    margin-top: 32px;
+    margin-bottom: 34px;
   }
 }
 @media screen and (min-width: 480px) {
   .header__phone_modal {
+    display: block;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -440,8 +461,29 @@ img {
     letter-spacing: 0.02em;
     color: #2196F3;
     margin-right: 100px;
+    margin-bottom: 32px;
   }
 }
+.header__social_modal-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__social_modal-item {
+  margin-right: 20px;
+}
+
+.header__social_modal-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
 .hero-page_header {
   font-family: "Roboto";
   font-style: normal;
