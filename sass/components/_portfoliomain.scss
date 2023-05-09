@@ -36,8 +36,7 @@ color: #757575;
     
 /* Флекс бокси */
 .main-page_buttons-list{
-display: flex;
-justify-content: center;
+@include grids-list
 
 
 @media screen and (min-width: 480px ){
@@ -128,10 +127,7 @@ margin-right: 8px;
 
     
 .main-page_photos-list{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 30px;
+@include grids-list(30px)
 
 
 @media screen and (min-width: 480px ){

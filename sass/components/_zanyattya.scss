@@ -13,7 +13,7 @@ margin-bottom: 50px;
 }
         
 .container .main-zanyatya-page_working-list{
-justify-content: center;
+~@include grids-list
 }
 
 .main-zanyatya-page_working-photo-item{

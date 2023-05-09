@@ -15,9 +15,7 @@ flex-wrap: nowrap;
 
 
 .footer_adress{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
+@include grids-list()
 
 
 @media screen and (min-width: 480px ){
@@ -108,8 +106,7 @@ color: #FFFFFF;
 
 
 @media screen and (min-width: 480px ){
-display: flex;
-justify-content: center;
+@include grids-list
 }
 @media screen and (min-width: 768px ){
                    
@@ -175,9 +172,7 @@ color: rgba(255, 255, 255, 0.6);
 
 
 @media screen and (min-width: 480px ){
-
-display: flex;
-justify-content: center;
+@include grids-list
 }
 @media screen and (min-width: 768px ){
                

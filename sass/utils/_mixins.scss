@@ -1,0 +1,6 @@
+@mixin grids-list($gap){
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap:$gap ;
+}

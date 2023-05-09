@@ -1342,13 +1342,8 @@ img {
 }
 
 .clients .container {
-  height: 388px;
-}
-@media screen and (min-width: 480px) {
-  .clients .container {
-    width: 450px;
-    height: 399px;
-  }
+  width: 450px;
+  height: 399px;
 }
 .main-clients-page_clients-list {
   display: -webkit-box;
